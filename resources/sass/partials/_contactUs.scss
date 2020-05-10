@@ -1,0 +1,14 @@
+.contact_us {
+    .form-group {
+        font-weight: bold;
+    }
+
+    .primary {
+        color: $color-logo;
+    }
+
+    .btn.btn-send {
+        @include look;
+        padding: 10px 20px;
+    }
+}

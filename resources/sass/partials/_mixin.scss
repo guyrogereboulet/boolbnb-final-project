@@ -1,0 +1,41 @@
+@mixin buttonPrimary {
+    background-color: $color_primary;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+@mixin sponsored {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 1rem;
+    border-radius: .4rem;
+    background-color: $color_primary;
+    color: white;
+}
+
+@mixin cardBox {
+    position: relative;
+    box-shadow: 0px 0px 12px -5px rgba(92, 91, 92, 1);
+    // height: 100%;
+
+}
+
+
+@mixin look {
+            font-weight: bold;
+            color: white;
+            background-color: $color-logo;
+            border-radius: 5px;
+            &:active,
+            &:hover,
+            &:focus {
+                color: white;
+                background-color: $color_primary;
+                outline: $color_primary;
+                opacity: 1;
+            }
+        }

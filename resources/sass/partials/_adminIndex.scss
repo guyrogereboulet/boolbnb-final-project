@@ -1,0 +1,79 @@
+.main_admin_index {
+
+    .title {
+        width: 20%;
+
+        padding: 1.5rem 0;
+
+
+        color: $color-logo;
+    }
+    
+
+    .btn_zone {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .btn_look {
+            @include look;
+            margin: 10px;
+            padding: 10px 20px;
+            
+        }
+
+        .btn_danger {
+            // margin: 5%;
+            padding: 7px 20px;
+            font-weight: bold;
+            color: $color-logo;
+            background-color: white;
+            border: 3px solid $color-logo;
+
+            &:active,
+            &:hover,
+            &:focus {
+                color: white;
+                background-color: $color-logo;
+                outline: $color-logo;
+            }
+        }
+    }
+}
+
+
+.box {
+    margin-bottom: 3rem;
+
+    .card_box {
+        position: relative;
+        box-shadow: 0px 0px 12px -5px rgba(92, 91, 92, 1);
+        height: 100%;
+
+        .sponsored {
+            position: absolute;
+            top: .5rem;
+            right: .5rem;
+            height: 2rem;
+            line-height: 2rem;
+            padding: 0 1rem;
+            border-radius: .4rem;
+            background-color: $color-logo;
+            color: white;
+        }
+
+        .card_text {
+            margin: 0 0 .6rem;
+        }
+    }
+
+    .btn_zone {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .btn_look {
+            margin: 0 5%;
+        }
+    }
+}

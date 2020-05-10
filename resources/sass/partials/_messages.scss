@@ -1,0 +1,29 @@
+.inbox_messages {
+    
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 90px;
+
+    .title {
+        // font-weight: bold;
+        color: $color-logo;
+    }
+
+
+    .card-header a {
+        color: $color_seconary;
+
+        &:hover {
+            color: $color_primary;
+        }
+    }
+
+    .sender {
+        color: $color-logo;
+    }
+
+    .date {
+        text-decoration: underline;
+    }
+}

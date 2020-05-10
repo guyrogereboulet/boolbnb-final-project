@@ -1,0 +1,23 @@
+main {
+    .container.main.login,
+    .container.main.register {
+        .row {
+            .card {
+                .card-body {
+                    button {
+                    @include look;
+                    border: 1px solid $color-logo;
+                    
+                        
+                    }
+                    
+                    a {
+                        color:black;
+
+                    }
+                }
+            }
+        }
+    }
+    
+}
